@@ -7,7 +7,9 @@
 > [Docker hub](https://hub.docker.com/search?type=image)
 
 ```
-When you fire up a container actually whats happening it creates a unique container for that moment until you exit and then when you run up a new one you spin up a whole brand-new container "old file are still there"
+When you fire up a container actually whats happening it creates a unique 
+container for that moment until you exit and then when you run up a new one 
+you spin up a whole brand-new container "old file are still there"
 ```
 > Go into an old one
 
@@ -56,5 +58,7 @@ ____
 `docker run --rm -p 3001:80 simple-node-webserver`
 
 ```
-Now we have one web server running on port 3000 and another one on port 3001 and both web servers think they're working on port 80 because that's the standard port number ofr a web server
+Now we have one web server running on port 3000 and another one on port 
+3001 and both web servers think they're working on port 80 because that's 
+the standard port number ofr a web server
 ```
